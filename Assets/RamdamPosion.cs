@@ -2,19 +2,15 @@
 using System.Collections;
 
 public class RamdamPosion : MonoBehaviour {
-    Transform pos;
+    Transform pos; //
+
     // Use this for initialization
     void Start () {
         pos = GetComponent<Transform>();
-
     }
 	
 	// Update is called once per frame
 	void Update () {
-
-
-
-
     }
 
     void OnCollisionEnter(Collision collision)

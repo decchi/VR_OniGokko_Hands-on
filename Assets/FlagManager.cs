@@ -8,6 +8,6 @@ public class FlagManager : MonoBehaviour {
     public void moveOn()
     {
         moveFlg = true;
-        Debug.Log("push");
     }
+
 }

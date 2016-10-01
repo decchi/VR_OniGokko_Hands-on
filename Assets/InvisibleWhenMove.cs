@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class DisplayCanvas : MonoBehaviour {
+public class InvisibleWhenMove : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {

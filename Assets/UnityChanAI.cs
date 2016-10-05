@@ -29,8 +29,8 @@ public class UnityChanAI : MonoBehaviour
     void Update()
     {
 
-        if (FlagManager.moveFlg)
-        {
+        //if (FlagManager.moveFlg)
+        //{
 
             //現時点からの目標への向きを取得する
             heading = Quaternion.LookRotation(goal.position - tr.transform.position);
@@ -47,7 +47,7 @@ public class UnityChanAI : MonoBehaviour
                 tr.transform.rotation = Quaternion.RotateTowards(tr.transform.rotation, heading, 180 * Time.deltaTime);
             }
 
-        }
+        //}
     }
     void OnCollisionEnter(Collision collision)
     {
